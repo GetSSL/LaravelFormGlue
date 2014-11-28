@@ -1,0 +1,23 @@
+{
+    "name": "lauris/laravel-form-glue",
+    "description": "",
+    "authors": [
+        {
+            "name": "Lauris Dzilums",
+            "email": "lauris@discuss.lv"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Lauris\\LaravelFormGlue\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
